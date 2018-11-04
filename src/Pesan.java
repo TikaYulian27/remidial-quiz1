@@ -8,7 +8,7 @@
  *
  * @author Tika Yln
  */
-public class Main {
+public class Pesan {
     
     public static void main(String[] args){
         
