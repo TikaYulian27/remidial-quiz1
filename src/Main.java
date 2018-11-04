@@ -15,14 +15,14 @@ public class Main {
         Jahitan pesanJahitan = new Jahitan();
         DataPemesanan anggota = new DataPemesanan();
         
+        
         anggota.setNama("Tika Yulianti Cantik Sekali");
         anggota.setAlamat("Tulungagung");
         
         pesanJahitan.setSize("M");
         pesanJahitan.setJenisPesanan("Gaun Pesta");
         
-        Pemesanan psn = new Pemesanan();
-        psn.pesan(anggota, pesanJahitan);
+        Pemesanan psn = new Pemesanan(anggota, pesanJahitan, 1, 250000);
         psn.infoDataPemesan();
     }
 }
