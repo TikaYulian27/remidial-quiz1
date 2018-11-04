@@ -13,6 +13,7 @@ public class Jahitan {
     protected String jenisPesanan;
     protected String size;
 
+    //pemberian setter getter pada class Jahitan
     public void setJenisPesanan(String jenisPesanan) {
         this.jenisPesanan = jenisPesanan;
     }

@@ -21,8 +21,8 @@ public class Main {
         pesanJahitan.setSize("M");
         pesanJahitan.setJenisPesanan("Gaun Pesta");
         
-        Pemesanan pesan = new Pemesanan();
-        pesan.pesan(pesanJahitan, anggota);
-        pesan.infoDataPemesan();
+        Pemesanan psn = new Pemesanan();
+        psn.pesan(anggota, pesanJahitan);
+        psn.infoDataPemesan();
     }
 }

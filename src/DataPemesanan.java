@@ -13,6 +13,7 @@ public class DataPemesanan {
     private String nama;
     private String alamat;
 
+    //pemberian setter getter pada class DataPemesanan
     public void setNama(String nama) {
         this.nama = nama;
     }

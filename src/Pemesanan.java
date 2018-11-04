@@ -13,15 +13,18 @@ public class Pemesanan {
     public DataPemesanan anggota;
     public Jahitan pesanJahitan;
     
-    public void pesan(Jahitan pesanJahitanBaru, DataPemesanan anggotaBaru){
-        pesanJahitan = pesanJahitanBaru;
+    //pemberian konstruktor anggota dan pesanJahitan
+    public void pesan(DataPemesanan anggotaBaru, Jahitan pesanJahitanBaru){
         anggota = anggotaBaru;
+        pesanJahitan = pesanJahitanBaru;
+        
     }
     
+    //pemanggilan data
     public void infoDataPemesan(){
-       System.out.println("Nama            :"+anggota.getNama());
-       System.out.println("Alamat          :"+anggota.getAlamat());
-       System.out.println("Jenis Jahitan   :"+pesanJahitan.getJenisPesanan());
-       System.out.println("Size            :"+pesanJahitan.getSize());
+        System.out.println("Nama            :"+anggota.getNama());
+        System.out.println("Alamat          :"+anggota.getAlamat());
+        System.out.println("Jenis Jahitan   :"+pesanJahitan.getJenisPesanan());
+        System.out.println("Size            :"+pesanJahitan.getSize());
     }
 }
