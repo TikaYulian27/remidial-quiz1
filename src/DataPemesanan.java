@@ -8,7 +8,6 @@
  *
  * @author Tika Yln
  */
-public class JahitPakaian {
+public class DataPemesanan {
     
-    // test java
 }
