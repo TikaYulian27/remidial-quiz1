@@ -648,23 +648,6 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAFm3Tg1e4lIQZA=",
-											"_parent": {
-												"$ref": "AAAAAAFm3Tev1okieP8="
-											},
-											"model": {
-												"$ref": "AAAAAAFm3Tg1I4lFvXo="
-											},
-											"font": "Arial;13;0",
-											"left": 485,
-											"top": 358,
-											"width": 172.43896484375,
-											"height": 13,
-											"text": "-alamat: String",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFm3TmVc4lQE88=",
 											"_parent": {
 												"$ref": "AAAAAAFm3Tev1okieP8="
@@ -674,10 +657,27 @@
 											},
 											"font": "Arial;13;0",
 											"left": 485,
-											"top": 373,
+											"top": 358,
 											"width": 172.43896484375,
 											"height": 13,
 											"text": "-nama: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFm3Tg1e4lIQZA=",
+											"_parent": {
+												"$ref": "AAAAAAFm3Tev1okieP8="
+											},
+											"model": {
+												"$ref": "AAAAAAFm3Tg1I4lFvXo="
+											},
+											"font": "Arial;13;0",
+											"left": 485,
+											"top": 373,
+											"width": 172.43896484375,
+											"height": 13,
+											"text": "-alamat: String",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2067,21 +2067,21 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAFm3Tg1I4lFvXo=",
-							"_parent": {
-								"$ref": "AAAAAAFm3Tev1YkadAs="
-							},
-							"name": "alamat",
-							"visibility": "private",
-							"type": "String"
-						},
-						{
-							"_type": "UMLAttribute",
 							"_id": "AAAAAAFm3TmVKIlNZ2M=",
 							"_parent": {
 								"$ref": "AAAAAAFm3Tev1YkadAs="
 							},
 							"name": "nama",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFm3Tg1I4lFvXo=",
+							"_parent": {
+								"$ref": "AAAAAAFm3Tev1YkadAs="
+							},
+							"name": "alamat",
 							"visibility": "private",
 							"type": "String"
 						}
