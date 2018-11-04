@@ -16,7 +16,7 @@ public class Jahitan {
     private int harga;
     private int hargaTotal;
 
-    
+    //pemberian setter getter pada class Jahitan
     public int getBanyak() {
         return banyak;
     }
@@ -25,7 +25,6 @@ public class Jahitan {
         this.banyak = banyak;
     }
 
-    //pemberian setter getter pada class Jahitan
     public void setJenisPesanan(String jenisPesanan) {
         this.jenisPesanan = jenisPesanan;
     }

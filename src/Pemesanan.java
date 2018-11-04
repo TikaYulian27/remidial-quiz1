@@ -20,7 +20,7 @@ public class Pemesanan {
         
     }
     
-    //pemberian konstruktor anggota dan pesanJahitan
+    //pemberian konstruktor dan parameter
     public Pemesanan(DataPemesanan anggotaBaru, Jahitan pesanJahitanBaru, int banyak, int harga){
         this.anggota = anggotaBaru;
         this.pesanJahitan = pesanJahitanBaru;
@@ -61,10 +61,6 @@ public class Pemesanan {
     }
     
     //mengitung harga total
-    /*public int getHargaTotal(){
-       return hargaTotal;
-    }*/
-    
     public int getHargaTotal(){
         return hargaTotal = banyak * harga;
     }

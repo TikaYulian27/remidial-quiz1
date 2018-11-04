@@ -18,7 +18,7 @@ public class DataPemesanan {
         this.nama = nama;
     }
     
-     public String getNama() {
+    public String getNama() {
         return nama;
     }
 
