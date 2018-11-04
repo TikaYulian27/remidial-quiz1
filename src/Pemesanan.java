@@ -19,9 +19,9 @@ public class Pemesanan {
     }
     
     public void infoDataPemesan(){
-       // System.out.println("Nama            :"+anggota.getNama());
-       // System.out.println("Alamat          :"+anggota.getAlamat());
-       // System.out.println("Jenis Jahitan   :"+pesanJahitan.get
-       // System.out.println("Size            :"+pesanJahitan.getSize());
+       System.out.println("Nama            :"+anggota.getNama());
+       System.out.println("Alamat          :"+anggota.getAlamat());
+       System.out.println("Jenis Jahitan   :"+pesanJahitan.getJenisPesanan());
+       System.out.println("Size            :"+pesanJahitan.getSize());
     }
 }
