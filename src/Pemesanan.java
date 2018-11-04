@@ -12,4 +12,16 @@ public class Pemesanan {
     
     public DataPemesanan anggota;
     public Jahitan pesanJahitan;
+    
+    public void pesan(Jahitan pesanJahitanBaru, DataPemesanan anggotaBaru){
+        pesanJahitan = pesanJahitanBaru;
+        anggota = anggotaBaru;
+    }
+    
+    public void infoDataPemesan(){
+       // System.out.println("Nama            :"+anggota.getNama());
+       // System.out.println("Alamat          :"+anggota.getAlamat());
+       // System.out.println("Jenis Jahitan   :"+pesanJahitan.get
+       // System.out.println("Size            :"+pesanJahitan.getSize());
+    }
 }
